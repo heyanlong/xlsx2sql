@@ -6,9 +6,9 @@ xlsx2sql is an open source Microsoft excel import data to mysql tools
 
 #### base install
 
-1. install golang
-2. download the project to your workspace
-3. add xlsx2sql dir to your pc PATH
+1. install the golang
+2. download zip package or clone the project to your workspace
+3. add the xlsx2sql directory to your computer GOPATH
 
 #### lib install
 
