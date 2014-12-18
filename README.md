@@ -18,3 +18,20 @@ xlsx2sql is an open source Microsoft excel import data to mysql tools
 
 ## using
 
+#### excel
+> ||mysql_tab_name||
+> ||mysql_column1_name||mysql_column2_name||mysql_column3_name||
+> ||mysql_comment||mysql_comment||mysql_comment||
+> ||data||data||data||
+> ||data||data||data||
+> ||...||...||...||
+
+#### mysql
+
+```mysql
+CREATE TABLE `mysql_tab_name` (
+	`mysql_column1_name` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT 'mysql_comment',
+	`mysql_column2_name` VARCHAR(20) NOT NULL DEFAULT '' COMMENT 'mysql_comment',
+	`mysql_column3_name` TINYINT(1) NOT NULL DEFAULT 0 COMMENT 'mysql_comment',
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='mysql_comment' AUTO_INCREMENT=1;
+```
