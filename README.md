@@ -19,12 +19,11 @@ xlsx2sql is an open source Microsoft excel import data to mysql tools
 ## using
 
 #### excel
-mysql_tab_name | N/A | N/A
-mysql_column1_name | mysql_column2_name | mysql_column3_name
-mysql_comment | mysql_comment | mysql_comment
-data | data | data
-data | data | data
-... | ... | ...
+| mysql_tab_name     | N/A                | N/A                |
+| mysql_column1_name | mysql_column2_name | mysql_column3_name |
+| mysql_comment      | mysql_comment      | mysql_comment      |
+| data               | data               | data               |
+| data               | data               | data               |
 
 #### mysql
 
